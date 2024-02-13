@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandra-portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01 rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+
+        }
+
+        .leftsection.buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 8px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .rightsection {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .third {
+            max-width: 80vw;
+            margin: auto;
+            line-height: 2;
+        }
+
+        .fourth {
+            max-width: 80vw;
+            margin: auto;
+            line-height: 2;
+        }
+        .fifth{
+            max-width: 80vw;
+            margin: auto;
+            line-height: 2;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            line-height: 2;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondsection h3 {
+            line-height: 3;
+        }
+
+        .secondsection p {
+            line-height: normal;
+        }
+
+        footer {
+
+            background-color: #0e0e1a;
+            height: 233px
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Chandra's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Chandra sekhara venkata charan kamma</span>
+
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Downlaod Resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="mine.png.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="third">
+            <h1>Career Objective</h1>
+            <p>I am a Computer Science student pursuing BTech at Koneru Lakshmaiah Educational
+                Foundation, Vijayawada. I am an initiative-driven person looking to get an opportunity where I
+                can make the best of my potential and contribute to the organization’s growth.</p>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <h1>Work Experience </h1>
+            <h3> AICTE – AWS CLOUD VIRTUAL INTERNSHIP</h3>
+
+            <p>This internship is self-paced which taught us about basics of cloud computing and importance
+                of cloud computing in real life. As an intern, I did courses on cloud computing and its basics. I
+                also understood the AWS platform and the services provided by AWS.</p>
+
+        </section>
+        <hr>
+        <section class="fourth">
+            <h1>Projects</h1>
+            <h3>Agriculture and Aquaculture Products | MERN Stack Web Development </h3>
+            <p>An E-commerce website built using Node, Express and MongoDB and a responsive UI
+                using React Js technologies.</p>
+            <p>Tools & technologies used: MongoDB, Express js, React js, Node js. </p>
+
+            <h3>Bidding Systems | Java Full Stack development</h3>
+            <p>Built using React and Tailwind CSS for UI and Spring boot for the backend.</p>
+
+            Tools & technologies used: Spring Boot, Node js, React and PostgreSQL.
+
+        </section>
+        <hr>
+        <section class="fifth">
+            <h1>Contact Me</h1>
+            &#9993;   2000030174cse@gmail.com
+            <p>  &#9742; +91-6304173896</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+            viewBox="0 0 16 16">
+            <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        
+        </svg> <a href=" https://www.linkedin.com/in/chandrasekharavenkatacharan-kamma/"> https://www.linkedin.com/in/chandrasekharavenkatacharan-kamma/</a> 
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Chandra's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <Li>Projects</Li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <Li>Projects</Li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <Li>Projects</Li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; chandrasfortfolio.com | All rights reserved
+          
+           
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student ', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
